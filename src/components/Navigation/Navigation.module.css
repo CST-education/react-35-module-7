@@ -1,0 +1,5 @@
+.navList {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}

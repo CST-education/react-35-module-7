@@ -1,0 +1,89 @@
+.button {
+  display: inline-block;
+  cursor: pointer;
+  margin: 6px 12px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: solid var(--deleteColor) 2px;
+}
+
+.button.primary {
+  background-color: var(--deleteColor);
+  color: white;
+}
+
+.button.secondary {
+  background-color: white;
+  color: var(--deleteColor);
+}
+
+.action {
+  display: inline-block;
+  padding: 0 18px;
+}
+
+.dialog {
+  background-color: white;
+  color: var(--backgroundColor);
+  border-radius: 24px;
+  border: solid var(--deleteColor) 6px;
+  padding: 12px 24px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.dialog .title {
+  color: var(--deleteColor);
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.25em;
+  margin: 6px 0;
+}
+
+.animated-in .content {
+  -webkit-animation: fadeIn 0.3s ease-out both;
+          animation: fadeIn 0.3s ease-out both;
+}
+
+.animated-in .content:nth-child(1) {
+  -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+}
+
+.animated-in .content:nth-child(2) {
+  -webkit-animation-delay: 0.24s;
+          animation-delay: 0.24s;
+}
+
+.animated-in .content:nth-child(3) {
+  -webkit-animation-delay: 0.36s;
+          animation-delay: 0.36s;
+}
+
+.animated-in .content:nth-child(4) {
+  -webkit-animation-delay: 0.48s;
+          animation-delay: 0.48s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=RemoveItem.css.map */

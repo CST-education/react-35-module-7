@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "",
+      "title": "Футболка",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit bibendum massa, at sollicitudin augue suscipit dictum. Aliquam euismod gravida ex, eu rutrum est dictum quis. Cras quis facilisis quam. Vestibulum vestibulum augue enim, ut sollicitudin nibh faucibus eu. Vivamus volutpat enim nisl, non tincidunt urna sodales feugiat. Etiam egestas interdum justo eget dignissim. Nulla facilisi. Etiam sagittis neque euismod iaculis accumsan. Nullam laoreet enim ligula. Maecenas sed risus mollis, aliquet odio et, convallis sem. Pellentesque venenatis, dui non pulvinar sodales, ipsum tellus tincidunt nisl, vel commodo arcu velit eget nulla. Integer eu facilisis est, vitae vehicula eros. Sed magna dui, accumsan sit amet mi a, rutrum lobortis lacus. Morbi efficitur massa ac sem aliquam maximus. Nullam libero purus, mollis vitae dolor non, posuere commodo lacus. Aenean lobortis augue nec molestie posuere. Praesent non massa ultricies, placerat magna lobortis, porta enim. Nulla dictum odio magna, et tempus velit luctus pharetra. Ut quis eros ut magna egestas vestibulum eget sit amet urna. Maecenas euismod lectus ut enim pretium mollis. Praesent tellus tellus, tincidunt a velit non, varius semper nisi.",
+      "size": "s",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "img": "",
+      "title": "Джинсы",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit bibendum massa, at sollicitudin augue suscipit dictum. Aliquam euismod gravida ex, eu rutrum est dictum quis. Cras quis facilisis quam. Vestibulum vestibulum augue enim, ut sollicitudin nibh faucibus eu. Vivamus volutpat enim nisl, non tincidunt urna sodales feugiat. Etiam egestas interdum justo eget dignissim. Nulla facilisi. Etiam sagittis neque euismod iaculis accumsan. Nullam laoreet enim ligula. Maecenas sed risus mollis, aliquet odio et, convallis sem. Pellentesque venenatis, dui non pulvinar sodales, ipsum tellus tincidunt nisl, vel commodo arcu velit eget nulla. Integer eu facilisis est, vitae vehicula eros. Sed magna dui, accumsan sit amet mi a, rutrum lobortis lacus. Morbi efficitur massa ac sem aliquam maximus. Nullam libero purus, mollis vitae dolor non, posuere commodo lacus. Aenean lobortis augue nec molestie posuere. Praesent non massa ultricies, placerat magna lobortis, porta enim. Nulla dictum odio magna, et tempus velit luctus pharetra. Ut quis eros ut magna egestas vestibulum eget sit amet urna. Maecenas euismod lectus ut enim pretium mollis. Praesent tellus tellus, tincidunt a velit non, varius semper nisi.",
+      "size": "m",
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "img": "",
+      "title": "Свитер",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit bibendum massa, at sollicitudin augue suscipit dictum. Aliquam euismod gravida ex, eu rutrum est dictum quis. Cras quis facilisis quam. Vestibulum vestibulum augue enim, ut sollicitudin nibh faucibus eu. Vivamus volutpat enim nisl, non tincidunt urna sodales feugiat. Etiam egestas interdum justo eget dignissim. Nulla facilisi. Etiam sagittis neque euismod iaculis accumsan. Nullam laoreet enim ligula. Maecenas sed risus mollis, aliquet odio et, convallis sem. Pellentesque venenatis, dui non pulvinar sodales, ipsum tellus tincidunt nisl, vel commodo arcu velit eget nulla. Integer eu facilisis est, vitae vehicula eros. Sed magna dui, accumsan sit amet mi a, rutrum lobortis lacus. Morbi efficitur massa ac sem aliquam maximus. Nullam libero purus, mollis vitae dolor non, posuere commodo lacus. Aenean lobortis augue nec molestie posuere. Praesent non massa ultricies, placerat magna lobortis, porta enim. Nulla dictum odio magna, et tempus velit luctus pharetra. Ut quis eros ut magna egestas vestibulum eget sit amet urna. Maecenas euismod lectus ut enim pretium mollis. Praesent tellus tellus, tincidunt a velit non, varius semper nisi.",
+      "size": "l",
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "img": "",
+      "title": "Рубашка",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit bibendum massa, at sollicitudin augue suscipit dictum. Aliquam euismod gravida ex, eu rutrum est dictum quis. Cras quis facilisis quam. Vestibulum vestibulum augue enim, ut sollicitudin nibh faucibus eu. Vivamus volutpat enim nisl, non tincidunt urna sodales feugiat. Etiam egestas interdum justo eget dignissim. Nulla facilisi. Etiam sagittis neque euismod iaculis accumsan. Nullam laoreet enim ligula. Maecenas sed risus mollis, aliquet odio et, convallis sem. Pellentesque venenatis, dui non pulvinar sodales, ipsum tellus tincidunt nisl, vel commodo arcu velit eget nulla. Integer eu facilisis est, vitae vehicula eros. Sed magna dui, accumsan sit amet mi a, rutrum lobortis lacus. Morbi efficitur massa ac sem aliquam maximus. Nullam libero purus, mollis vitae dolor non, posuere commodo lacus. Aenean lobortis augue nec molestie posuere. Praesent non massa ultricies, placerat magna lobortis, porta enim. Nulla dictum odio magna, et tempus velit luctus pharetra. Ut quis eros ut magna egestas vestibulum eget sit amet urna. Maecenas euismod lectus ut enim pretium mollis. Praesent tellus tellus, tincidunt a velit non, varius semper nisi.",
+      "size": "s",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "img": "",
+      "title": "Брюки",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit bibendum massa, at sollicitudin augue suscipit dictum. Aliquam euismod gravida ex, eu rutrum est dictum quis. Cras quis facilisis quam. Vestibulum vestibulum augue enim, ut sollicitudin nibh faucibus eu. Vivamus volutpat enim nisl, non tincidunt urna sodales feugiat. Etiam egestas interdum justo eget dignissim. Nulla facilisi. Etiam sagittis neque euismod iaculis accumsan. Nullam laoreet enim ligula. Maecenas sed risus mollis, aliquet odio et, convallis sem. Pellentesque venenatis, dui non pulvinar sodales, ipsum tellus tincidunt nisl, vel commodo arcu velit eget nulla. Integer eu facilisis est, vitae vehicula eros. Sed magna dui, accumsan sit amet mi a, rutrum lobortis lacus. Morbi efficitur massa ac sem aliquam maximus. Nullam libero purus, mollis vitae dolor non, posuere commodo lacus. Aenean lobortis augue nec molestie posuere. Praesent non massa ultricies, placerat magna lobortis, porta enim. Nulla dictum odio magna, et tempus velit luctus pharetra. Ut quis eros ut magna egestas vestibulum eget sit amet urna. Maecenas euismod lectus ut enim pretium mollis. Praesent tellus tellus, tincidunt a velit non, varius semper nisi.",
+      "size": "m",
+      "categoryId": 2
+    },
+    {
+      "id": 6,
+      "img": "",
+      "title": "Спортивный костюм",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit bibendum massa, at sollicitudin augue suscipit dictum. Aliquam euismod gravida ex, eu rutrum est dictum quis. Cras quis facilisis quam. Vestibulum vestibulum augue enim, ut sollicitudin nibh faucibus eu. Vivamus volutpat enim nisl, non tincidunt urna sodales feugiat. Etiam egestas interdum justo eget dignissim. Nulla facilisi. Etiam sagittis neque euismod iaculis accumsan. Nullam laoreet enim ligula. Maecenas sed risus mollis, aliquet odio et, convallis sem. Pellentesque venenatis, dui non pulvinar sodales, ipsum tellus tincidunt nisl, vel commodo arcu velit eget nulla. Integer eu facilisis est, vitae vehicula eros. Sed magna dui, accumsan sit amet mi a, rutrum lobortis lacus. Morbi efficitur massa ac sem aliquam maximus. Nullam libero purus, mollis vitae dolor non, posuere commodo lacus. Aenean lobortis augue nec molestie posuere. Praesent non massa ultricies, placerat magna lobortis, porta enim. Nulla dictum odio magna, et tempus velit luctus pharetra. Ut quis eros ut magna egestas vestibulum eget sit amet urna. Maecenas euismod lectus ut enim pretium mollis. Praesent tellus tellus, tincidunt a velit non, varius semper nisi.",
+      "size": "l",
+      "categoryId": 1
+    },
+    {
+      "id": 7,
+      "img": "",
+      "title": "Куртка",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit bibendum massa, at sollicitudin augue suscipit dictum. Aliquam euismod gravida ex, eu rutrum est dictum quis. Cras quis facilisis quam. Vestibulum vestibulum augue enim, ut sollicitudin nibh faucibus eu. Vivamus volutpat enim nisl, non tincidunt urna sodales feugiat. Etiam egestas interdum justo eget dignissim. Nulla facilisi. Etiam sagittis neque euismod iaculis accumsan. Nullam laoreet enim ligula. Maecenas sed risus mollis, aliquet odio et, convallis sem. Pellentesque venenatis, dui non pulvinar sodales, ipsum tellus tincidunt nisl, vel commodo arcu velit eget nulla. Integer eu facilisis est, vitae vehicula eros. Sed magna dui, accumsan sit amet mi a, rutrum lobortis lacus. Morbi efficitur massa ac sem aliquam maximus. Nullam libero purus, mollis vitae dolor non, posuere commodo lacus. Aenean lobortis augue nec molestie posuere. Praesent non massa ultricies, placerat magna lobortis, porta enim. Nulla dictum odio magna, et tempus velit luctus pharetra. Ut quis eros ut magna egestas vestibulum eget sit amet urna. Maecenas euismod lectus ut enim pretium mollis. Praesent tellus tellus, tincidunt a velit non, varius semper nisi.",
+      "size": "l",
+      "categoryId": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "мужская одежда"
+    },
+    {
+      "id": 2,
+      "name": "женская одежда"
+    }
+  ]
+}
