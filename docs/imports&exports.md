@@ -1,5 +1,7 @@
 ## Абсолютные импорты
 
+http://jamesknelson.com/re-exporting-es6-modules/
+
 Создаем на одном уровне с src файл jsconfig.json с настройками:
 
 ```

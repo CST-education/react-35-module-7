@@ -6,9 +6,9 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { combineReducers } from 'redux';
 import { productsList, productFilter } from './products/reducers';
-import { images, loading, error } from './pexels/reducers';
-import logger from 'redux-logger';
-
+// import { images, loading, error } from './pexels/reducers';
+// import logger from 'redux-logger';
+import pexelSlice from './pexels/slices';
 import {
   persistStore,
   persistReducer,
@@ -21,6 +21,7 @@ import {
 } from 'redux-persist';
 
 import storage from 'redux-persist/lib/storage';
+console.dir('pexelSlice', pexelSlice);
 
 const persistProdConfig = {
   key: 'products',
@@ -38,11 +39,11 @@ const persistedProductReducer = persistReducer(
   productReducer,
 );
 
-const pexelsImages = combineReducers({
-  images,
-  loading,
-  error,
-});
+// const pexelsImages = combineReducers({
+//   images,
+//   loading,
+//   error,
+// });
 
 const persistImagesConfig = {
   key: 'images',
@@ -53,7 +54,8 @@ const persistImagesConfig = {
 
 const persistedImagesReducer = persistReducer(
   persistImagesConfig,
-  pexelsImages,
+  pexelSlice,
+  // pexelsImages,
 );
 
 export const store = configureStore({

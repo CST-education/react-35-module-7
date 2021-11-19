@@ -5,10 +5,8 @@ import { Loader } from '../../components/Loader/Loader';
 import { LoadMoreBtn } from '../../components/Button/Button';
 import s from './ImagesList.module.css';
 import { useDispatch, useSelector } from 'react-redux';
-// import { getData, getThunkData } from '../../redux/pexels/operations';
-// import { getImages } from '../../redux/pexels/selectors';
 import { pexelsOperation, pexelsSelectors } from '../../redux/pexels';
-
+console.log(pexelsOperation, pexelsSelectors);
 // == импорты для перехода на страницу карточки
 
 const newPexelsFetchObject = new PexelsFetchObject();

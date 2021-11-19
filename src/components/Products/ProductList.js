@@ -4,11 +4,11 @@ import s from './Products.module.css';
 import { SolidTitle } from '../Titles/SolidTitle';
 import { connect } from 'react-redux';
 import { useSelector } from 'react-redux';
-import { getProducts } from '../../redux/products/selectors';
+import { getFilteredProducts } from '../../redux/products/selectors';
 // создаем компонент списка продуктов
 
 export default function ProductList() {
-  const products = useSelector(getProducts);
+  const products = useSelector(getFilteredProducts);
   return (
     <>
       <SolidTitle titleText="Product List" />

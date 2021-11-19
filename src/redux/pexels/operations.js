@@ -51,3 +51,5 @@ export const getMoreThunkData = createAsyncThunk(
     }
   },
 );
+
+export default { getThunkData, getMoreThunkData };
