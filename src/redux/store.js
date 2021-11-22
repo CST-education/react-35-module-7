@@ -19,7 +19,8 @@ import {
   PURGE,
   REGISTER,
 } from 'redux-persist';
-
+import { productsApiSlice } from './products/slice'; // +++++++++
+import { setupListeners } from '@reduxjs/toolkit/query';
 import storage from 'redux-persist/lib/storage';
 console.dir('pexelSlice', pexelSlice);
 
@@ -62,13 +63,16 @@ export const store = configureStore({
   reducer: {
     products: persistedProductReducer,
     pexels: persistedImagesReducer,
+    [productsApiSlice.reducerPath]: productsApiSlice.reducer, // +++++++++
   },
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({
       serializableCheck: {
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
-    }),
+    }).concat(productsApiSlice.middleware), // +++++++++
 });
 
 export const persistor = persistStore(store);
+
+setupListeners(store.dispatch); // +++++++++
